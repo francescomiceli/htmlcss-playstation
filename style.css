@@ -30,6 +30,10 @@
     font-size: 48px;
 }
 
+.fm-text-h2{
+    
+}
+
 .fm-text{
     font-size: 50px;
 }
@@ -47,7 +51,7 @@
     
 }
 
-#mini-cards img{
+#mini-cards img, #news-section img{
     margin-bottom: 10px;
 }
 
@@ -60,4 +64,17 @@
 .mini-pct:hover{
     border-bottom: 2px solid blue;
     opacity: 70%;
+}
+
+#cover{
+    background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: top center;
+    background-size: cover;
+    margin-top: 100px;
+    position: relative;
+}
+
+#news-section{
+    background-color: #1F1F1F;
+    height: auto;
 }
