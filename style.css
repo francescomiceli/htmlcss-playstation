@@ -1,0 +1,52 @@
+/* HEADER */
+
+#logo-section{
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#logo-section img{
+    width: 110px;
+}
+
+.fm-bg-wht{
+    background-color: white;
+}
+
+/* JUMBOTRON */
+
+.jumbotron{
+    background-image: url(img/jumbo-bg.png);
+    background-position: top center;
+    background-size: cover;
+    margin-top: 100px;
+    height: 900px;
+    position: relative;
+}
+
+.fm-text-jumbo{
+    padding-top: 500px;
+    font-size: 48px;
+}
+
+.fm-text{
+    font-size: 50px;
+}
+
+.returnal img{
+    width: 58%;
+    position: absolute;
+    bottom: 462px;
+}
+
+/* CARDS */
+
+#mini-cards{
+    height: auto;
+    
+}
+
+#mini-cards img{
+    margin-bottom: 10px;
+}
