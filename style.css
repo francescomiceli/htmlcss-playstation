@@ -31,8 +31,7 @@
 
 .col-3--personal{
     width: 200px;
-    
-}
+    }
 
 .col-3--personal:hover{
   border: 1px solid transparent;
@@ -115,7 +114,21 @@ footer{
     height: auto;
 }
 
+.p-1{
+    border: 2px solid blue;
+    
+}
+
 .sony-ent{
     width: 150px;
 }
 
+@media (min-width: 992px) {
+    .spostamento{
+        transition: 0.5s;
+    }
+    
+    .spostamento:hover{
+        transform: translate(0px,-15px);
+    }
+}
