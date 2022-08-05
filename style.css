@@ -8,10 +8,6 @@
     width: 110px;
 }
 
-.fm-bg-wht{
-    background-color: white;
-}
-
 .dropdowning{
     width: 10px;
 }
@@ -21,12 +17,15 @@
 }
 
 .dropdown-menu--personale{
-    width: 800px;
+    width: 100%;
     position: absolute;
-    top: 55px !important;
-    left: -80px !important;
-    border-top: none;
-    height: auto;
+    top: 73px !important;
+    left:0 !important;
+    border: none;
+}
+
+.pos-unset{
+    position: unset;
 }
 
 .col-3--personal{
@@ -34,7 +33,6 @@
     }
 
 .col-3--personal:hover{
-  border: 1px solid transparent;
   box-shadow: 6px 5px 15px 5px #888888;
 }
 
@@ -114,9 +112,17 @@ footer{
     height: auto;
 }
 
-.p-1{
-    border: 2px solid blue;
-    
+.bordo-stondato{
+    border-radius: 1em !important;
+}
+
+.padding-personal{
+    padding: 3px;
+    border: 2px solid transparent;
+}
+
+.spostamento:hover .padding-personal{
+    border: 2px solid #0070D1;
 }
 
 .sony-ent{
