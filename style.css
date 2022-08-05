@@ -12,6 +12,23 @@
     background-color: white;
 }
 
+.dropdowning{
+    width: 10px;
+}
+
+.drop-inline{
+    display: inline-block;
+}
+
+.dropdown-menu--personale{
+    width: 1500px;
+    position: absolute;
+    top: 55px !important;
+    left: -80px !important;
+    border-top: none;
+    height: auto;
+}
+
 /* JUMBOTRON */
 
 .jumbotron{
@@ -34,8 +51,7 @@
 
 #mini-cards{
     height: auto;
-    
-}
+    }
 
 #mini-cards img, #news-section img{
     margin-bottom: 10px;
@@ -43,13 +59,18 @@
 
 /* CONSOLE SECTION */
 
-.mini-pct{
-    opacity: 100%;
+.mini-pct img{
+    border-bottom: 2px solid transparent;
+    
 }
 
-.mini-pct:hover{
+.mini-pct:hover img{
     border-bottom: 2px solid blue;
     opacity: 70%;
+}
+
+.mini-pct:hover p{
+    color: black;
 }
 
 #cover{
